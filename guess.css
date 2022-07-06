@@ -1,0 +1,61 @@
+.body-box {
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: 570px;
+    margin-top: 180px;
+}
+
+.inner-box {
+    padding-top: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+.head {
+    font-size: 28px;
+    font-family: "Sofia", sans-serif;
+}
+
+.subhead {
+    font-size: 18px;
+    font-family: 'Sofia', sans-serif;
+}
+
+#in {
+    font-size: 18px;
+    font-family: 'Sofia', sans-serif;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+}
+
+#out {
+    font-size: 18px;
+    font-family: 'Sofia', sans-serif;
+}
+
+.but1 {
+    font-size: 18px;
+    font-family: 'Sofia', sans-serif;
+    border: none;
+    background-color: aqua;
+    transition: 0.3s;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.but1:hover {
+    background-color: aquamarine;
+}
