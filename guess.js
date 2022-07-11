@@ -7,8 +7,9 @@ console.log(systemguess);
 function guessnumber() {
     guess++
     var num = parseInt(document.getElementById('in').value)
-    if (num === ' ' || num > 100 || num < 1) {
+    if (num === ' ' || num > 100 || num < 1 || num === null || typeof(num) != Number) {
         console.log('Input is invalid!');
+        document.getElementById('out').innerText = 'Input is invalid!';
     }
     console.log(typeof(num));
 
